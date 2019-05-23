@@ -9,9 +9,10 @@ public abstract class Machine : MonoBehaviour
 	protected bool powerAvailable;
 	public bool IsRunning { get { return powerSource.IsRunning; } } // If machine has enough power and a request for use has been called
 	public bool debug;
+
 	private void Update()
 	{
-		UpdateMachine();
+		UpdateMachine(); //
 	}
 
 	protected void StartMachine() // Call when starting the machine, begins drawing power
@@ -22,7 +23,7 @@ public abstract class Machine : MonoBehaviour
 
 	protected void StopMachine() // Call when machine is done and it no longer needs to use power
 	{
-		// Stop machine
+		// Stop machine and release power
 		powerSource.ReleaseAllPower();
 	}
 
