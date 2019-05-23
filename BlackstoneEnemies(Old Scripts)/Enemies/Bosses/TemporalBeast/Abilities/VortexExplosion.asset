@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe177e9f9e86b843abf1a82f2cde76c, type: 3}
+  m_Name: VortexExplosion
+  m_EditorClassIdentifier: 
+  animationToPlay: 
+  abilitySound:
+  - {fileID: 8300000, guid: b904ce5af1801a74087abd7cd8cc16d6, type: 3}
+  looping: 0
+  abilityBaseCooldown: 5
+  rangeRequired: 0
+  requiredRange: 0
+  abilityTimeUsed: 0
+  abilityType: 0
+  castTime: 5
+  abilityDuration: 0
+  abilityMachine: {fileID: 0}
+  damage: 10
+  attackRadius: 6
+  pullForce: 900
+  knockbackForce: 1500
+  camShakeForce: 0.2
+  implosionPrefab: {fileID: 1183499826007798, guid: ea0cfb84ba3518f4093d532d5f3409a8,
+    type: 2}
+  explosionPrefab: {fileID: 1665018155661808, guid: 9951a56c48391744f8d30d921def4373,
+    type: 2}

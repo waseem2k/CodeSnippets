@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63803e5fe384e44b8adef2cbccd0ba5, type: 3}
+  m_Name: RocketPunch
+  m_EditorClassIdentifier: 
+  animationToPlay: B_Rocket
+  abilitySound:
+  - {fileID: 8300000, guid: d623388a5f0401e46a6701de64584204, type: 3}
+  - {fileID: 8300000, guid: c89aa844fd289604180577c95f75a519, type: 3}
+  - {fileID: 8300000, guid: 346ef476684e95f42aec5f4aa09c2ff5, type: 3}
+  - {fileID: 8300000, guid: cd4bb7395fd69434080eb5aed8721a96, type: 3}
+  looping: 0
+  abilityBaseCooldown: 15
+  rangeRequired: 0
+  requiredRange: 0
+  abilityTimeUsed: 0
+  abilityType: 1
+  castTime: 0
+  abilityDuration: 0
+  abilityMachine: {fileID: 0}
+  fistDamage: 30
+  fistForce: 1500

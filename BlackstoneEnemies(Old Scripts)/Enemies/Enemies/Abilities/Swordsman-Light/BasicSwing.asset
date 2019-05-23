@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2828c0868da61284d8aa4ba4313a3516, type: 3}
+  m_Name: BasicSwing
+  m_EditorClassIdentifier: 
+  animationToPlay: Attack01
+  abilitySound:
+  - {fileID: 8300000, guid: 241fc76765a67c647b6e873af9a31f90, type: 3}
+  - {fileID: 8300000, guid: 52b001767afbf6f4c8a41b3f5459f987, type: 3}
+  looping: 0
+  abilityBaseCooldown: 1
+  rangeRequired: 1
+  requiredRange: 0
+  abilityTimeUsed: 0
+  abilityType: 1
+  castTime: 0
+  abilityDuration: 0
+  abilityMachine: {fileID: 0}
+  swordDamage: 10
+  slamForce: 250
+  isSlamAbility: 0

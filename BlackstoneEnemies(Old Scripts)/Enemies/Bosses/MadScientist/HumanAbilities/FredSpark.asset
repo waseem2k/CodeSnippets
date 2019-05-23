@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fca64f72169be4d8492d4c85d62a02, type: 3}
+  m_Name: FredSpark
+  m_EditorClassIdentifier: 
+  animationToPlay: S_TaserAttack
+  abilitySound:
+  - {fileID: 8300000, guid: b205aeb5050ac1445b0ef7ef87046071, type: 3}
+  looping: 0
+  abilityBaseCooldown: 5
+  rangeRequired: 2
+  requiredRange: 0
+  abilityTimeUsed: 0
+  abilityType: 0
+  castTime: 3
+  abilityDuration: 0
+  abilityMachine: {fileID: 0}
+  projectile: {fileID: 1952427975701146, guid: 74ea9ecf0e54a1b4aae7be9d0d692199, type: 2}
+  projectileDamage: 10
+  projectileForce: 15
+  projectileCount: 1
+  projectileDistanceApart: 0
+  useHighAngle: 0
+  useTime: 0
+  projectileTravelTime: 2

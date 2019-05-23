@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44612736b8ec87249aa1c48e45048322, type: 3}
+  m_Name: FredTeleportStrike
+  m_EditorClassIdentifier: 
+  animationToPlay: 
+  abilitySound:
+  - {fileID: 8300000, guid: b904ce5af1801a74087abd7cd8cc16d6, type: 3}
+  looping: 0
+  abilityBaseCooldown: 10
+  rangeRequired: 2
+  requiredRange: 0
+  abilityTimeUsed: 0
+  abilityType: 2
+  castTime: 0
+  abilityDuration: 0
+  abilityMachine: {fileID: 0}
+  damage: 10
+  attackRadius: 5
+  attackDelay: 0.1
+  teleportBackDelay: 0.5
+  contactForce: 10000

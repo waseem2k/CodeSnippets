@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63803e5fe384e44b8adef2cbccd0ba5, type: 3}
+  m_Name: FlurryPunch
+  m_EditorClassIdentifier: 
+  animationToPlay: B_Flurry
+  abilitySound:
+  - {fileID: 8300000, guid: ca95e9c87f5a2fb4fb23cc553135b509, type: 3}
+  - {fileID: 8300000, guid: b51f0801eb12e77408822f87f3271477, type: 3}
+  - {fileID: 8300000, guid: 1c7dd68edd0400d4697e6ba69b5dbacc, type: 3}
+  - {fileID: 8300000, guid: 1b22b4e135f56154386c7a37698a8720, type: 3}
+  - {fileID: 8300000, guid: 7e57e889c6fb3b1468096ee54770a3a3, type: 3}
+  looping: 0
+  abilityBaseCooldown: 12
+  rangeRequired: 0
+  requiredRange: 0
+  abilityTimeUsed: 0
+  abilityType: 1
+  castTime: 0
+  abilityDuration: 0
+  abilityMachine: {fileID: 0}
+  fistDamage: 2
+  fistForce: 1500

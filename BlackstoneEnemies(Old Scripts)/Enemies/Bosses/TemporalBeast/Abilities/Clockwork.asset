@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da44510b9cfc5334a8127e4b66b90862, type: 3}
+  m_Name: Clockwork
+  m_EditorClassIdentifier: 
+  animationToPlay: 
+  abilitySound:
+  - {fileID: 8300000, guid: 349fafd8db9a7f44a8eb308a0d728b31, type: 3}
+  - {fileID: 8300000, guid: 72063b3505d737f4fbf4ef8931a4fedd, type: 3}
+  - {fileID: 8300000, guid: 46c72582d5bc7ae4995ef6e2b821ba1b, type: 3}
+  - {fileID: 8300000, guid: a39b6cafefca74e44b5fb2828d896d90, type: 3}
+  looping: 0
+  abilityBaseCooldown: 20
+  rangeRequired: 0
+  requiredRange: 0
+  abilityTimeUsed: 0
+  abilityType: 0
+  castTime: 5
+  abilityDuration: 0
+  abilityMachine: {fileID: 0}
+  projectile: {fileID: 1650028544851396, guid: a140a247dee6a3942920a8e425802bb8, type: 2}
+  projectileDamage: 10
+  projectileForce: 150
+  projectileCount: 5

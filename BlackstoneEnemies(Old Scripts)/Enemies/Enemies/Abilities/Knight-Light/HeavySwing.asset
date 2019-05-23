@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2828c0868da61284d8aa4ba4313a3516, type: 3}
+  m_Name: HeavySwing
+  m_EditorClassIdentifier: 
+  animationToPlay: Heavy01
+  abilitySound:
+  - {fileID: 8300000, guid: e211c936a5846114bb152d91b679158b, type: 3}
+  - {fileID: 8300000, guid: 28527fea85bacb04e8ebef0791a49341, type: 3}
+  - {fileID: 8300000, guid: a9edae8830de4e74bb74483bbcdbac35, type: 3}
+  looping: 0
+  abilityBaseCooldown: 5
+  rangeRequired: 1
+  requiredRange: 0
+  abilityTimeUsed: 0
+  abilityType: 1
+  castTime: 0
+  abilityDuration: 0
+  abilityMachine: {fileID: 0}
+  swordDamage: 20
+  slamForce: 500
+  isSlamAbility: 1

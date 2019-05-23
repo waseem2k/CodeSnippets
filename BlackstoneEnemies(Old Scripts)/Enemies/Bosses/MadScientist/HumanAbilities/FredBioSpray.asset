@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d15d843dba4be468ba9ce7124eed72, type: 3}
+  m_Name: FredBioSpray
+  m_EditorClassIdentifier: 
+  animationToPlay: S_BioSprayAttack
+  abilitySound:
+  - {fileID: 8300000, guid: 60a6b475580c82a41a34662ff7c7a7a4, type: 3}
+  looping: 0
+  abilityBaseCooldown: 20
+  rangeRequired: 2
+  requiredRange: 0
+  abilityTimeUsed: 0
+  abilityType: 0
+  castTime: 0
+  abilityDuration: 2
+  abilityMachine: {fileID: 0}
+  projectile: {fileID: 1952427975701146, guid: 74ea9ecf0e54a1b4aae7be9d0d692199, type: 2}
+  damage: 2
+  force: 30
+  bioArc: 30
+  projectileCount: 14
+  attackDuration: 2
