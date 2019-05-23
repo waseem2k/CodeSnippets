@@ -4,13 +4,13 @@ using FMODUnity;
 
 public class Timer : MonoBehaviour
 {
-    public Image timerUI;
+	public Image timerUI;
 	public float pulseSpeed = 4f;
 	public float pulseThreshold = 15f;
 	public string timeOutEvent = "event:/CLOCK/15SecRemain";
 
 	private static Image TimerUI;
-    private static float TimeLeft;
+	private static float TimeLeft;
 	private static float MaxTime;
 	private static bool TimerStarted;
 	private static float pulseState; // Lerp state of timer so it's not instantly switching between two colours
@@ -40,12 +40,12 @@ public class Timer : MonoBehaviour
 	}
 
 	// Update the timer and UI
-    private void Update()
+	private void Update()
 	{
 		if (!TimerStarted) return;
-        if (TimeLeft > 0)
-        {
-            TimeLeft -= Time.deltaTime; // Reduce time
+	if (TimeLeft > 0)
+	{
+	    TimeLeft -= Time.deltaTime; // Reduce time
 
 			// Update UI
 			if(timerUI != null)
@@ -54,10 +54,10 @@ public class Timer : MonoBehaviour
 			// If time is less than the required threshold we start pulsing red
 			if (TimeLeft < pulseThreshold)
 			{
-                pulseState += Time.deltaTime * pulseDir * pulseSpeed;
+		pulseState += Time.deltaTime * pulseDir * pulseSpeed;
 
-                // Simple switch to change the direction of lerp
-                if (pulseState > 1) pulseDir = -1;
+		// Simple switch to change the direction of lerp
+		if (pulseState > 1) pulseDir = -1;
 				if (pulseState < 0) pulseDir = 1;
 				TimerUI.color = Color.Lerp(Color.white, Color.red, pulseState); // Lerp between white and red
 				if (!eventIsPlaying)
@@ -66,15 +66,15 @@ public class Timer : MonoBehaviour
 					eventIsPlaying = true;
 				}
 			}
-        }
+	}
 		else // Start game over scene
 		{
 			TimerStarted = false;
-            GameMenu.LoadGameOverScene();
+	    GameMenu.LoadGameOverScene();
 			MusicManager.PlayGameOverTrack();
 			timeOutEmitter.Stop();
 		}
-    }
+	}
 
 	// Pauses the timer
 	public static void Pause()
@@ -86,7 +86,7 @@ public class Timer : MonoBehaviour
 	// Resumes the timer
 	public static void Resume()
 	{
-		TimerStarted = true;
-		if(eventIsPlaying) timeOutEmitter.Play();
+	TimerStarted = true;
+	if(eventIsPlaying) timeOutEmitter.Play();
     }
 }
