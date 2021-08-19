@@ -1,0 +1,201 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E470BBD7-518F-4F31-B634-C2671C50FBC3}"
+	ProjectSection(SolutionItems) = preProject
+		AudioSettings.cs = AudioSettings.cs
+		GridCheck.cs = GridCheck.cs
+		HeartRateMonitorUI.cs = HeartRateMonitorUI.cs
+		Interaction.cs = Interaction.cs
+		LevelGenerator.CS = LevelGenerator.CS
+		LevelGeneratorEditor.cs = LevelGeneratorEditor.cs
+		LevelSelection.cs = LevelSelection.cs
+		MusicManager.cs = MusicManager.cs
+		ObjectOrientation.cs = ObjectOrientation.cs
+		ObstacleList.cs = ObstacleList.cs
+		README.md = README.md
+		SceneCameraStats.cs = SceneCameraStats.cs
+		Snippets.cs = Snippets.cs
+		SpawnVolume.cs = SpawnVolume.cs
+		Test.cs = Test.cs
+		Timer.cs = Timer.cs
+		VitalResourceUI.cs = VitalResourceUI.cs
+		XmlSerializationMethods.cs = XmlSerializationMethods.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Machines", "Machines", "{B6687177-D8F6-4307-A101-E5575983DFD7}"
+	ProjectSection(SolutionItems) = preProject
+		Machines\Machine.cs = Machines\Machine.cs
+		Machines\MineralDeposit.cs = Machines\MineralDeposit.cs
+		Machines\MiningRig.cs = Machines\MiningRig.cs
+		Machines\Resource.cs = Machines\Resource.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PowerSystem", "PowerSystem", "{05931870-6D88-44A7-850E-1B0C5CF8A672}"
+	ProjectSection(SolutionItems) = preProject
+		PowerSystem\PowerCable.cs = PowerSystem\PowerCable.cs
+		PowerSystem\PowerConduit.cs = PowerSystem\PowerConduit.cs
+		PowerSystem\PowerGenerator.cs = PowerSystem\PowerGenerator.cs
+		PowerSystem\PowerPlug.cs = PowerSystem\PowerPlug.cs
+		PowerSystem\PowerSocket.cs = PowerSystem\PowerSocket.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdPersonController", "ThirdPersonController", "{E6BD5370-7F9E-44B6-99E4-657681AC3039}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdPersonController\ExtensionMethods.cs = ThirdPersonController\ExtensionMethods.cs
+		ThirdPersonController\ThirdPersonCamera.cs = ThirdPersonController\ThirdPersonCamera.cs
+		ThirdPersonController\ThirdPersonController.cs = ThirdPersonController\ThirdPersonController.cs
+		ThirdPersonController\ThirdPersonCrosshair.cs = ThirdPersonController\ThirdPersonCrosshair.cs
+		ThirdPersonController\ThirdPersonInput.cs = ThirdPersonController\ThirdPersonInput.cs
+		ThirdPersonController\ThirdPersonMotor.cs = ThirdPersonController\ThirdPersonMotor.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vitals", "Vitals", "{E56A0C04-52BA-41D8-8F87-0C4E75018155}"
+	ProjectSection(SolutionItems) = preProject
+		Vitals\Health.cs = Vitals\Health.cs
+		Vitals\HeartRate.cs = Vitals\HeartRate.cs
+		Vitals\Oxygen.cs = Vitals\Oxygen.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlackstoneAI", "BlackstoneAI", "{830ECF25-2F2B-42EF-B778-BFFE2B7A81B2}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\Enemy.cs = BlackstoneEnemies(Old Scripts)\Enemies\Enemy.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbilityMachine", "AbilityMachine", "{7C144649-4CCC-4FD1-A2AD-F44684B564E1}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityMachine.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityMachine.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bosses", "Bosses", "{52AA92E7-7A50-4878-9894-E7F0614C3884}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\Bosses\ArmouredRifleman\ArmouredRifleman.cs = BlackstoneEnemies(Old Scripts)\Enemies\Bosses\ArmouredRifleman\ArmouredRifleman.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Bosses\Barbarian\Barbarian.cs = BlackstoneEnemies(Old Scripts)\Enemies\Bosses\Barbarian\Barbarian.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Bosses\Boss.cs = BlackstoneEnemies(Old Scripts)\Enemies\Bosses\Boss.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Bosses\TemporalBeast\TemporalBeast.cs = BlackstoneEnemies(Old Scripts)\Enemies\Bosses\TemporalBeast\TemporalBeast.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Bosses\WingedBeast\WingedBeast.cs = BlackstoneEnemies(Old Scripts)\Enemies\Bosses\WingedBeast\WingedBeast.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enemies", "Enemies", "{7EEF83D2-574B-4166-B3BD-724517B5C366}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\Enemies\FlyingEnemy.cs = BlackstoneEnemies(Old Scripts)\Enemies\Enemies\FlyingEnemy.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Enemies\GenericEnemy.cs = BlackstoneEnemies(Old Scripts)\Enemies\Enemies\GenericEnemy.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Enemies\Reaper.cs = BlackstoneEnemies(Old Scripts)\Enemies\Enemies\Reaper.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{AC8B8732-915F-4955-9449-6D3AB811D327}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\ClockHandProjectile.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\ClockHandProjectile.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\ParticleProjectile.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\ParticleProjectile.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\Projectile.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\Projectile.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\ReaperManager.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\ReaperManager.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbilityBases", "AbilityBases", "{A534D491-5A7A-46DD-A3BD-1CD893674E72}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\Ability.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\Ability.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\AerialDiveAbility.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\AerialDiveAbility.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\BioAbility.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\BioAbility.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\ChargeAbility.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\ChargeAbility.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\DrillChargeAbility.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\DrillChargeAbility.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\FistAbility.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\FistAbility.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\JumpAbility.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\JumpAbility.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\JumpAttackAbility.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\JumpAttackAbility.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\LeapAbility.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\LeapAbility.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\PatternProjectiles.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\PatternProjectiles.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\PotionAbility.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\PotionAbility.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\ProjectileAbility.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\ProjectileAbility.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\SwordAbility.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\SwordAbility.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\TeleportAbility.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\TeleportAbility.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\VortexExplosion.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AbilityBases\VortexExplosion.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AnimatorBehaviours", "AnimatorBehaviours", "{DABBF9C1-7D4D-4783-B06D-AC048F0037B5}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AnimatorBehaviours\AtackingResetExit.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AnimatorBehaviours\AtackingResetExit.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AnimatorBehaviours\CheckDrawCondition.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AnimatorBehaviours\CheckDrawCondition.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AnimatorBehaviours\HoldAbilityEnter.cs = BlackstoneEnemies(Old Scripts)\Enemies\AbilityMachine\AnimatorBehaviours\HoldAbilityEnter.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BossUtilities", "BossUtilities", "{BCE95B80-ADCA-4C7A-8F96-9AF236B7B8B4}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossArea.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossArea.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossCollapsingFloor.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossCollapsingFloor.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossDialogue.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossDialogue.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossDoorway.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossDoorway.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossHealthUI.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossHealthUI.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossManager.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossManager.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossTrigger.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\BossTrigger.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\FredDoor.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\FredDoor.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\JumpTarget.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\JumpTarget.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\TeleportPlayer.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\BossUtilities\TeleportPlayer.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Detection", "Detection", "{A56B8468-8DE2-4AD2-A650-BDF863FBBB51}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\Detection\BoxDetector.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\Detection\BoxDetector.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\Detection\CircleDetector.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\Detection\CircleDetector.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\Detection\DetectorBase.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\Detection\DetectorBase.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\Detection\FOVDetector.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\Detection\FOVDetector.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnemyUtilities", "EnemyUtilities", "{E6A851E0-6146-4CED-AED1-742DDB2CF230}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyUtilities\AfterImageGenerator.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyUtilities\AfterImageGenerator.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyUtilities\DamageTrigger.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyUtilities\DamageTrigger.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyUtilities\EnemyDimensionSwapper.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyUtilities\EnemyDimensionSwapper.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyUtilities\EnemyLootDrops.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyUtilities\EnemyLootDrops.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyUtilities\LaserSight.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyUtilities\LaserSight.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyUtilities\Limb.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyUtilities\Limb.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnemyWeapons", "EnemyWeapons", "{B96510DF-739A-4B11-9752-50B90EFB12A9}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyWeapons\EnemyFist.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyWeapons\EnemyFist.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyWeapons\EnemyWeapon.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\EnemyWeapons\EnemyWeapon.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pathfinding", "Pathfinding", "{7798E39B-C4D2-48AA-B31B-FE465A11A802}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\Pathfinding\PathfindingAgent.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\Pathfinding\PathfindingAgent.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Misc\Pathfinding\PathScanner.cs = BlackstoneEnemies(Old Scripts)\Enemies\Misc\Pathfinding\PathScanner.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MadScientist", "MadScientist", "{A5E6FED5-D9C5-4C33-843D-06FF2464FDEF}"
+	ProjectSection(SolutionItems) = preProject
+		BlackstoneEnemies(Old Scripts)\Enemies\Bosses\MadScientist\ArtoriusSequence.cs = BlackstoneEnemies(Old Scripts)\Enemies\Bosses\MadScientist\ArtoriusSequence.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Bosses\MadScientist\BeastScientist.cs = BlackstoneEnemies(Old Scripts)\Enemies\Bosses\MadScientist\BeastScientist.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Bosses\MadScientist\ChaseArtorion.cs = BlackstoneEnemies(Old Scripts)\Enemies\Bosses\MadScientist\ChaseArtorion.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Bosses\MadScientist\DuoScientist.cs = BlackstoneEnemies(Old Scripts)\Enemies\Bosses\MadScientist\DuoScientist.cs
+		BlackstoneEnemies(Old Scripts)\Enemies\Bosses\MadScientist\HumanScientist.cs = BlackstoneEnemies(Old Scripts)\Enemies\Bosses\MadScientist\HumanScientist.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6687177-D8F6-4307-A101-E5575983DFD7} = {E470BBD7-518F-4F31-B634-C2671C50FBC3}
+		{05931870-6D88-44A7-850E-1B0C5CF8A672} = {E470BBD7-518F-4F31-B634-C2671C50FBC3}
+		{E6BD5370-7F9E-44B6-99E4-657681AC3039} = {E470BBD7-518F-4F31-B634-C2671C50FBC3}
+		{E56A0C04-52BA-41D8-8F87-0C4E75018155} = {E470BBD7-518F-4F31-B634-C2671C50FBC3}
+		{830ECF25-2F2B-42EF-B778-BFFE2B7A81B2} = {E470BBD7-518F-4F31-B634-C2671C50FBC3}
+		{7C144649-4CCC-4FD1-A2AD-F44684B564E1} = {830ECF25-2F2B-42EF-B778-BFFE2B7A81B2}
+		{52AA92E7-7A50-4878-9894-E7F0614C3884} = {830ECF25-2F2B-42EF-B778-BFFE2B7A81B2}
+		{7EEF83D2-574B-4166-B3BD-724517B5C366} = {830ECF25-2F2B-42EF-B778-BFFE2B7A81B2}
+		{AC8B8732-915F-4955-9449-6D3AB811D327} = {830ECF25-2F2B-42EF-B778-BFFE2B7A81B2}
+		{A534D491-5A7A-46DD-A3BD-1CD893674E72} = {7C144649-4CCC-4FD1-A2AD-F44684B564E1}
+		{DABBF9C1-7D4D-4783-B06D-AC048F0037B5} = {7C144649-4CCC-4FD1-A2AD-F44684B564E1}
+		{BCE95B80-ADCA-4C7A-8F96-9AF236B7B8B4} = {AC8B8732-915F-4955-9449-6D3AB811D327}
+		{A56B8468-8DE2-4AD2-A650-BDF863FBBB51} = {AC8B8732-915F-4955-9449-6D3AB811D327}
+		{E6A851E0-6146-4CED-AED1-742DDB2CF230} = {AC8B8732-915F-4955-9449-6D3AB811D327}
+		{B96510DF-739A-4B11-9752-50B90EFB12A9} = {AC8B8732-915F-4955-9449-6D3AB811D327}
+		{7798E39B-C4D2-48AA-B31B-FE465A11A802} = {AC8B8732-915F-4955-9449-6D3AB811D327}
+		{A5E6FED5-D9C5-4C33-843D-06FF2464FDEF} = {52AA92E7-7A50-4878-9894-E7F0614C3884}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6151363A-659A-4264-B115-21ED544C8799}
+	EndGlobalSection
+EndGlobal
